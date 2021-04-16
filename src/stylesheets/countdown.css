@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Gruppo&family=Montserrat:wght@100;400&family=Grand+Hotel&family=Bebas+Neue&family=Flavors&family=Grandstander:wght@400;500&family=Londrina+Shadow&family=Londrina+Sketch&family=Monoton&family=Pangolin&display=swap');
+/* Homemade Apple, Monoton, Bungee Shade, Sacramento, Poppins, Amatic SC, Permanent Marker */
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&family=Emilys+Candy&family=Bowlby+One+SC&family=Ribeye+Marrow&family=Press+Start+2P&family=Major+Mono+Display&family=Amatic+SC:wght@400;700&family=Bungee+Shade&family=Permanent+Marker&family=Poppins&family=Sacramento&display=swap');
+#parent-countdown{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: black;
+    background-color: #e2e2df;
+    background: url('../assets/gifmain.gif');
+}
+.numerics{
+    font-size: 85px;
+    font-family: 'Bungee Shade';
+    color: #4056a1;
+    margin-right: 5px;
+}
+.alpha{
+    font-size: 50px;
+    text-shadow: 2px 2px 0px black;
+    font-family: 'Grand Hotel';
+    color: #d79922;
+}
+#countdown{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#block-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.blocks{
+    display: inline;
+}
+#base-text{
+    font-size: 50px;
+    font-family: 'Monoton';
+    color: #df5a5a;
+    /* text-shadow: 2px 2px 0px black; */
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+@media only screen and (max-width:800px){
+    .numerics{
+        font-size: 45px;
+        margin-right: 5px;
+    }
+    .alpha{
+        font-size: 30px;
+        text-shadow: 2px 2px 0px black;
+    }
+    .blocks{
+        margin: 0px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #base-text{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+}
+
+@media only screen and (max-width:550px){
+    #countdown{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:470px){
+    .numerics{
+        font-size: 40px;
+        margin-right: 5px;
+    }
+    .alpha{
+        font-size: 25px;
+        text-shadow: 1px 1px 0px black;
+    }
+    .blocks{
+        margin: 0px 7px;
+    }
+    #base-text{
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+}
+
+@media only screen and (max-width:350px){
+    #base-text{
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+}

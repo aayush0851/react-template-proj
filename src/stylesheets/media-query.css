@@ -1,0 +1,183 @@
+@media only screen and (max-width:1000px){
+    #wall-content{
+        font-size:90px;
+    }
+}
+@media only screen and (max-width:800px){
+    #wall-content{
+        bottom: 10%;
+        font-size:80px;
+    }
+}
+@media only screen and (max-width:700px){
+    .priv-img{
+        display: block;
+        margin: 0px auto;
+        height: 400px;
+        width: auto;
+    }
+}
+@media only screen and (max-width:620px){
+    #wall-content{
+        bottom: 10%;
+        font-size: 75px;
+    }
+    .wall-img{
+        box-shadow: none;
+        height: 60%;
+        width: auto;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    .priv-img{
+        display: block;
+        margin: 0px auto;
+        height: 300px;
+        width: auto;
+    }
+}
+@media only screen and (max-width:600px){
+    #main-video-section{
+        width: 100%;
+        padding: 150px 30px;
+    }
+    .main-video-section-content{
+        height: 400px;
+        width: 100%;
+        padding: 30px;
+        margin: 80px 0px;
+        border-radius: 10px;
+    }
+    .main-vid-1{
+        height: 350px;
+        width: 100%;
+    }
+    input{
+        width: 90%;
+    }
+    #video-zone-head{
+        width: 100%;
+        font-size: 40px;
+        padding: 20px;
+        margin: 50px auto;
+        text-align: center;
+        z-index: 10;
+    }
+    .card{
+        width: 400px;
+        height: 350px;
+    }
+    iframe{
+        margin: 20px auto;
+        height: 250px;
+        width: 350px;
+        border: none;
+    }
+    .negative-zone{
+        width: 350px;
+        margin: 0px auto;
+        font-size: 20px;
+        padding: 5px 0px;
+    }
+    .content-card{
+        width: 100%;
+        margin: 0px auto;
+        padding: 30px;
+    }
+    .content-head{
+        font-size: 40px;
+    }
+    .content-description{
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+}
+@media only screen and (max-width:450px){
+    .meme-img{
+        width: 300px;
+        height: auto;
+    }
+    #wall-content{
+        bottom: 7%;
+        font-size: 75px;
+    }
+    .wall-img{
+        height: 50%;
+        top: 90px;
+    }
+    #meme-section-head{
+        font-size: 30px;
+    }
+    #main-video-section-head{
+        font-size: 40px;
+    }
+    #main-video-section{
+        width: 100%;
+        padding: 150px 30px;
+    }
+    .main-video-section-content{
+        height: 400px;
+        width: 100%;
+        padding: 30px;
+        margin: 80px 0px;
+        border-radius: 10px;
+    }
+    input{
+        width: 90%;
+    }
+    #video-zone-head{
+        width: 100%;
+        font-size: 40px;
+        padding: 20px;
+        margin: 50px auto;
+        text-align: center;
+        z-index: 10;
+    }
+    .card{
+        width: 300px;
+        height: 350px;
+    }
+    iframe{
+        margin: 20px auto;
+        height: 250px;
+        width: 250px;
+        border: none;
+    }
+    .negative-zone{
+        width: 250px;
+        margin: 0px auto;
+        font-size: 20px;
+        padding: 5px 0px;
+    }
+    .content-card{
+        width: 100%;
+        margin: 0px auto;
+        padding: 30px;
+    }
+    .content-head{
+        font-size: 40px;
+    }
+    .content-description{
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+}
+@media only screen and (max-width:420px){
+    #wall-content{
+        bottom: 6%;
+        font-size: 65px;
+    }
+    .priv-img{
+        display: block;
+        margin: 0px auto;
+        height: 250px;
+        width: auto;
+    }
+}
+@media only screen and (max-width:350px){
+    #meme-section-head{
+        font-size: 25px;
+    }
+}

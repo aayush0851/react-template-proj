@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Frijole&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+#head-sky{
+    background-color: #131313;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 50px;
+    overflow: hidden;
+}
+
+#advice-headphones-next{
+    animation-name: stepOne;
+    animation-duration: 4s;
+    animation-iteration-count: 4;
+}
+
+#hold{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#headphones-symbol{
+    width: 100%;
+}
+
+.advice-headphone{
+    color: white;
+    font-family: 'Cabin Sketch';
+    font-size: 35px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+#go-button{
+    cursor: pointer;
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(10px);}
+    100% {transform: translateY(0px);}
+}
+
+#advice-headphone-step1-next{
+    animation: stepOne 4s ease forwards;
+}
+
+@keyframes stepOne {
+    0% {opacity: 0;}
+    33% {opacity: 1;}
+    66% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.img-here{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 10px rgb(87, 87, 87);
+}
+.img-yes{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 10px rgb(87, 87, 87);
+}
