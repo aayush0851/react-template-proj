@@ -299,7 +299,7 @@ const MainPage = (props: any) => {
                             {!entry?<div id="protected">
                                 <div id="protected-head">Password-check</div>
                                 <form>
-                                    <input type="text" placeholder="Enter the secret key" onChange={handleCode} onKeyPress={submitPassword} value={code}/>
+                                    <input type="text" placeholder="Password: 1234" onChange={handleCode} onKeyPress={submitPassword} value={code}/>
                                 </form>
                             </div>:null}
                         </Flip>

@@ -7,7 +7,7 @@ const CountDown = (props: any) => {
     // const [day, setDay] = React.useState<number>();
     // const [hr, setHr] = React.useState<number>();
     // const [min, setMin] = React.useState<number>();
-    const [sec, setSec] = React.useState<number>(10);
+    const [sec, setSec] = React.useState<number>(11);
 
     // COUNTDOWN LIVE
 
@@ -79,10 +79,20 @@ const CountDown = (props: any) => {
                             </div> */}
                             <div className="blocks">
                                 <span className="numerics">{sec<10?'0'+sec:sec}</span>
-                                <span className="alpha">seconds</span>
+                                {/* <span className="alpha">seconds</span> */}
                             </div>
                         </div>:null}
                     </Bounce>
+                    <div>
+                        <Bounce>
+                            <div className="note-ctdown">
+                                Note: 
+                                <br/>
+                                In your browser's setting change sound preference of this website to ALLOW and reload the website
+                                for a better experience.
+                            </div>
+                        </Bounce>
+                    </div>
                 </div>
             </div>
         </Fragment>
